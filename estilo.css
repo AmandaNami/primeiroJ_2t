@@ -1,7 +1,57 @@
-body{
+body {
   background: pink;
-}
 
+}
 h1{
   text-align: center;
 }
+ .caixa1 {
+   position: absolute;
+   background: rgb(241, 228, 39);
+   width: 200px;
+   height: 200px;
+   left: 78%;
+   right: 0%;
+   bottom:12;
+ }
+ .caixa2 {
+   position: absolute;
+   background: rgb(138, 138, 224);
+   width: 200px;
+   height: 200px;
+   left: 50%;
+   right: 0%;
+   bottom:12;
+ }
+ .menuPrincipal{
+   position: absolute;
+   width: 100;
+   height: 45px;
+   background: rgb(123, 217, 230);
+   top: 0%;
+   left: 0%;
+ }
+
+
+ nav ul {
+   list-style-type: none;
+   margin: 0%;
+   padding: 0;
+   overflow: 0;
+ } 
+ li {
+   float: left;
+ }
+ li a {
+   display: block;
+   color: rgb(3, 3, 3);
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-family: 'Courier New', Courier, monospace;
+
+ }
+ li a:hover {
+   color: rgb(250, 248, 248);
+   background: black;
+ }
