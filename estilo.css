@@ -55,3 +55,31 @@ h1{
    color: rgb(250, 248, 248);
    background: black;
  }
+#melancia{
+  width: 30%;
+}
+.caixaMelancia {
+  position: absolute;
+  background: purple;
+  top: 45px;
+  width: 90%;
+  height: 165px;
+  margin: 20px;
+  border-color: rgb(3, 3, 3);
+  border-width: 20px;
+  border-style: solid;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.caixaMelancia2 {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 90%;
+  height: 150px;
+  margin: 2cm;
+  display: flex;
+  justify-content: center;
+ }
