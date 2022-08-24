@@ -6,6 +6,11 @@ body {
 h1{
   text-align: center;
 }
+p{
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+}
  .caixa1 {
    position: absolute;
    background: rgb(241, 228, 39);
@@ -83,6 +88,25 @@ h1{
   display: flex;
   justify-content: end;
  }
+.caixaMelancia3 {
+  position: absolute;
+  top: 300px;
+  right: 540px;
+  width: 1000px;
+  height: 250px;
+  display: flex;
+  justify-content: end;
+  }
+  .caixaMelancia4 {
+    position: absolute;
+    top: 300px;
+    right: 540px;
+    width: 100px;
+    height: 250px;
+    display: flex;
+    justify-content: end;
+    }
+
  .rodape {
    position: absolute;
    bottom: 0%;
